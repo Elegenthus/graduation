@@ -1,0 +1,24 @@
+{
+  "name": "graduation",
+  "version": "1.0.0",
+  "description": "\"The FE code for graduation project\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elegenthus/graduation.git"
+  },
+  "author": "Muxi FE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elegenthus/graduation/issues"
+  },
+  "homepage": "https://github.com/Elegenthus/graduation#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-watch": "^4.3.5"
+  }
+}

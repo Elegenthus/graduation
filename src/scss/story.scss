@@ -1,0 +1,63 @@
+$green:#00bb9c;
+$black:#1c3540;
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: MicrosoftYaHei;
+	background-image: url('../../static/img/background.png');
+}
+.main_story{
+	color: $black;
+	margin: 168px auto;
+	width: 53%;
+	font-size: 12px;
+	.title{
+		overflow: hidden;
+		.font-icon{
+			width: 6px;
+			height: 25px;
+			background-color: $green;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.story{
+			color: $green;
+			font-size: 20px;
+			font-weight: bold;
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 10px;
+		}
+		.link{
+			display: inline-block;
+			vertical-align: middle;
+			float: right;
+			a{
+				color: $green;
+				font-size: 18px;
+				line-height: 25px;
+			}
+		}
+	}
+}
+.inform{
+	    margin-top: 90px;
+		.tittle{
+		    margin-bottom: 45px;
+			text-align: center;
+		    font-size: 18px;
+		    font-weight: bold;
+		}
+	.subtittle{
+		margin-bottom: 25px;
+		text-align: center;
+		.author{
+			font-weight: bold;
+			margin-left: 25px;
+		}
+	}
+	.content{
+		width: 80%;
+		margin: auto;
+	}
+}
