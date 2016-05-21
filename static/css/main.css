@@ -206,7 +206,9 @@ a:hover {
           background-color: #00bb9c;
           display: inline-block;
           border: 13px solid transparent;
-          background-clip: padding-box; }
+          background-clip: padding-box;
+          transition: all 0.5s;
+          cursor: pointer; }
         .content .timeline ._timeline ._dot .dot:hover {
           border-radius: 50%;
           width: 12px;
@@ -282,7 +284,11 @@ a:hover {
             overflow: hidden;
             margin-top: 20px; }
             .content .info_message .info_pic .info .information .infor .new {
-              float: left; }
+              float: left;
+              width: 80%;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap; }
             .content .info_message .info_pic .info .information .infor .time {
               float: right;
               margin-right: 5%; }
@@ -324,6 +330,10 @@ a:hover {
           border: 3px solid #00bb9c; }
           .content .info_message .message .message_bg .message_box ._message {
             margin: 15px;
-            padding-bottom: 15px; }
+            padding-bottom: 15px;
+            width: 80%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap; }
             .content .info_message .message .message_bg .message_box ._message .name {
               font-weight: bold; }

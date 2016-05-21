@@ -41,6 +41,8 @@ $black:#1c3540;
 					display: inline-block;
 					border:13px solid transparent;
 					background-clip: padding-box;
+					transition:all 0.5s;
+					cursor: pointer;
 				}
 				.dot:hover{
 					border-radius: 50%;
@@ -141,6 +143,10 @@ $black:#1c3540;
 					margin-top: 20px;
 					.new{
 						float: left;
+						width: 80%;
+						text-overflow:ellipsis;
+  						overflow:hidden;
+  						white-space:nowrap;
 					}
 					.time{
 						float: right;
@@ -194,6 +200,10 @@ $black:#1c3540;
 				._message{
 					margin:15px;
 					padding-bottom: 15px;
+					width: 80%;
+					text-overflow:ellipsis;
+  					overflow:hidden;
+  					white-space:nowrap;
 					.name{
 						font-weight: bold;
 					}
