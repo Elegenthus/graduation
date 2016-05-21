@@ -2,7 +2,11 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: MicrosoftYaHei;
+  line-height: 1;
   background-image: url("../../static/img/background.png"); }
+
+img {
+  border: 0px; }
 
 .main_story {
   color: #1c3540;
@@ -183,17 +187,18 @@ a:hover {
     background-repeat: no-repeat;
     background-position: 50% 90%; }
     .content .timeline ._timeline {
-      padding: 1px; }
+      margin-left: -20px; }
       .content .timeline ._timeline ._dot {
+        vertical-align: top;
         display: inline-block;
-        margin-right: 3%;
-        margin-left: -20px;
-        text-align: center; }
+        text-align: center;
+        margin-top: -19px;
+        margin-right: 1.5%; }
         .content .timeline ._timeline ._dot .keylink {
           border-bottom: 1px solid #00bb9c;
           padding-bottom: 8px; }
         .content .timeline ._timeline ._dot .dot {
-          margin: 0px auto;
+          margin: 10px auto;
           vertical-align: middle;
           border-radius: 50%;
           width: 12px;
@@ -206,10 +211,12 @@ a:hover {
           border-radius: 50%;
           width: 12px;
           height: 12px;
-          margin: 0px auto;
+          margin: 10px auto;
           background-color: #00bb9c;
           border: 13px solid #cdefe9;
           background-clip: padding-box; }
+      .content .timeline ._timeline .a {
+        margin-top: 4px; }
   .content .iconsearchs {
     margin: 145px auto;
     width: 700px;

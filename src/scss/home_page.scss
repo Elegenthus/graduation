@@ -20,18 +20,19 @@ $black:#1c3540;
 		background-position: 50% 90%;
 
 		._timeline{
-			padding: 1px;
+			margin-left: -20px;
 			._dot{
+				vertical-align: top;
 				display: inline-block;
-				margin-right: 3%;
-				margin-left: -20px;
 				text-align: center;
+				margin-top: -19px;
+				margin-right: 1.5%;
 				.keylink{
 					border-bottom: 1px solid $green;
 					padding-bottom: 8px;
 				}
 				.dot{
-					margin:0px auto;
+					margin:10px auto;
 					vertical-align: middle;
 					border-radius: 50%;
 					width: 12px;
@@ -45,12 +46,15 @@ $black:#1c3540;
 					border-radius: 50%;
 					width: 12px;
 					height: 12px;
-					margin:0px auto;
+					margin:10px auto;
 					background-color: $green;
 					border:13px solid #cdefe9;
 					background-clip: padding-box;
 				}
 			}
+			.a{
+					margin-top: 4px;
+				}
 		}
 	}
 	.iconsearchs{

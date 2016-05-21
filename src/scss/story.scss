@@ -4,7 +4,11 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: MicrosoftYaHei;
+	line-height:1;
 	background-image: url('../../static/img/background.png');
+}
+img{
+	border:0px;
 }
 .main_story{
 	color: $black;
