@@ -181,66 +181,35 @@ a:hover {
     width: 59.6%;
     margin: 145px auto;
     background-repeat: no-repeat;
-    position: relative;
     background-position: 50% 90%; }
-    .content .timeline ._timeline ._dot:nth-child(even) {
-      margin-top: -6px;
-      display: inline-block;
-      margin-right: 1%;
-      text-align: center; }
-      .content .timeline ._timeline ._dot:nth-child(even) .keylink {
-        border-bottom: 1px solid #00bb9c;
-        padding-bottom: 8px; }
-      .content .timeline ._timeline ._dot:nth-child(even) .dot {
-        vertical-align: middle;
-        border-radius: 50%;
-        width: 12px;
-        height: 12px;
-        margin-left: -13px;
-        background-color: #00bb9c;
-        margin-right: 4%;
+    .content .timeline ._timeline {
+      padding: 1px; }
+      .content .timeline ._timeline ._dot {
         display: inline-block;
-        border: 13px solid transparent;
-        background-clip: padding-box; }
-      .content .timeline ._timeline ._dot:nth-child(even) .dot:hover {
-        border-radius: 50%;
-        margin-left: -13px;
-        margin-right: 2%;
-        width: 12px;
-        height: 12px;
-        margin-right: 4%;
-        background-color: #00bb9c;
-        border: 13px solid #cdefe9;
-        background-clip: padding-box; }
-    .content .timeline ._timeline ._dot:nth-child(odd) {
-      margin-bottom: -6px;
-      display: inline-block;
-      margin-right: 1%;
-      text-align: center; }
-      .content .timeline ._timeline ._dot:nth-child(odd) .keylink {
-        border-bottom: 1px solid #00bb9c;
-        padding-bottom: 8px; }
-      .content .timeline ._timeline ._dot:nth-child(odd) .dot {
-        vertical-align: middle;
-        border-radius: 50%;
-        width: 12px;
-        height: 12px;
-        margin-left: -13px;
-        background-color: #00bb9c;
-        margin-right: 4%;
-        display: inline-block;
-        border: 13px solid transparent;
-        background-clip: padding-box; }
-      .content .timeline ._timeline ._dot:nth-child(odd) .dot:hover {
-        border-radius: 50%;
-        margin-left: -13px;
-        margin-right: 2%;
-        width: 12px;
-        height: 12px;
-        margin-right: 4%;
-        background-color: #00bb9c;
-        border: 13px solid #cdefe9;
-        background-clip: padding-box; }
+        margin-right: 3%;
+        margin-left: -20px;
+        text-align: center; }
+        .content .timeline ._timeline ._dot .keylink {
+          border-bottom: 1px solid #00bb9c;
+          padding-bottom: 8px; }
+        .content .timeline ._timeline ._dot .dot {
+          margin: 0px auto;
+          vertical-align: middle;
+          border-radius: 50%;
+          width: 12px;
+          height: 12px;
+          background-color: #00bb9c;
+          display: inline-block;
+          border: 13px solid transparent;
+          background-clip: padding-box; }
+        .content .timeline ._timeline ._dot .dot:hover {
+          border-radius: 50%;
+          width: 12px;
+          height: 12px;
+          margin: 0px auto;
+          background-color: #00bb9c;
+          border: 13px solid #cdefe9;
+          background-clip: padding-box; }
   .content .iconsearchs {
     margin: 145px auto;
     width: 700px;

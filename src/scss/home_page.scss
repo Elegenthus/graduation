@@ -17,93 +17,40 @@ $black:#1c3540;
 		width: 59.6%;
 		margin: 145px auto;
 		background-repeat: no-repeat;
-		position: relative;
 		background-position: 50% 90%;
 
 		._timeline{
-			._dot:nth-child(even){
-				margin-top: -6px;
+			padding: 1px;
+			._dot{
 				display: inline-block;
-				margin-right: 1%;
+				margin-right: 3%;
+				margin-left: -20px;
 				text-align: center;
 				.keylink{
 					border-bottom: 1px solid $green;
 					padding-bottom: 8px;
 				}
 				.dot{
+					margin:0px auto;
 					vertical-align: middle;
 					border-radius: 50%;
 					width: 12px;
 					height: 12px;
-					margin-left: -13px;
 					background-color: $green;
-					margin-right: 4%;
 					display: inline-block;
 					border:13px solid transparent;
 					background-clip: padding-box;
 				}
 				.dot:hover{
 					border-radius: 50%;
-					margin-left: -13px;
-					margin-right: 2%;
 					width: 12px;
 					height: 12px;
-					margin-right: 4%;
+					margin:0px auto;
 					background-color: $green;
 					border:13px solid #cdefe9;
-					// margin-bottom: -40px;
 					background-clip: padding-box;
 				}
 			}
-			._dot:nth-child(odd){
-				margin-bottom: -6px;
-				display: inline-block;
-				margin-right: 1%;
-				text-align: center;
-				.keylink{
-					border-bottom: 1px solid $green;
-					padding-bottom: 8px;
-				}
-				.dot{
-					vertical-align: middle;
-					border-radius: 50%;
-					width: 12px;
-					height: 12px;
-					margin-left: -13px;
-					background-color: $green;
-					margin-right: 4%;
-					display: inline-block;
-					border:13px solid transparent;
-					background-clip: padding-box;
-				}
-				.dot:hover{
-					border-radius: 50%;
-					margin-left: -13px;
-					margin-right: 2%;
-					width: 12px;
-					height: 12px;
-					margin-right: 4%;
-					background-color: $green;
-					border:13px solid #cdefe9;
-					// margin-bottom: -40px;
-					background-clip: padding-box;
-				}
-			}
-			// .keylink:nth-child(odd){
-			// 	display: inline-block;
-			// 	margin-top: -40px;
-			// 	// margin-right: 7%;
-			// 	border-bottom: 1px solid $green;
-			// 	padding-bottom: 8px;
-			// }
-			// .keylink:nth-child(even){
-			// 	display: inline-block;
-			// 	margin-left: 7%;
-			// 	margin-top: 10px;
-			// 	border-bottom: 1px solid $green;
-			// 	padding-bottom: 8px;
-			// }
-
 		}
 	}
 	.iconsearchs{
