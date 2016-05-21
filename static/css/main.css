@@ -1,7 +1,8 @@
+@charset "UTF-8";
 body {
   margin: 0px;
   padding: 0px;
-  font-family: MicrosoftYaHei;
+  font-family: "Microsoft YaHei", "微软雅黑", "STXihei", "华文细黑";
   line-height: 1;
   background-image: url("../../static/img/background.png"); }
 
@@ -277,7 +278,8 @@ a:hover {
             float: right;
             line-height: 50px; }
             .content .info_message .info_pic .info .ti_li .link a {
-              color: #00bb9c; }
+              color: #00bb9c;
+              font-size: 18px; }
         .content .info_message .info_pic .info .information {
           padding-top: 25px; }
           .content .info_message .info_pic .info .information .infor {
