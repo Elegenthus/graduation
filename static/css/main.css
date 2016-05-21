@@ -211,7 +211,8 @@ a:hover {
       padding-bottom: 8px; }
   .content .iconsearchs {
     margin: 145px auto;
-    width: 700px; }
+    width: 700px;
+    text-align: center; }
     .content .iconsearchs .iconsearch {
       margin-right: 10%;
       display: inline-block;
@@ -228,7 +229,8 @@ a:hover {
       vertical-align: middle; }
     .content .iconsearchs ._iconsearch {
       display: inline-block;
-      vertical-align: middle; }
+      vertical-align: middle;
+      margin-right: 0px; }
       .content .iconsearchs ._iconsearch .icon {
         margin-bottom: 20px; }
       .content .iconsearchs ._iconsearch .icondescription a {
@@ -245,21 +247,25 @@ a:hover {
       .content .info_message .info_pic .info {
         overflow: hidden; }
         .content .info_message .info_pic .info .ti_li {
+          text-align: center;
           font-size: 20px;
           padding-bottom: 25px; }
           .content .info_message .info_pic .info .ti_li .title_s {
             float: left;
-            text-align: center;
             width: 80%;
             border-bottom: 1px #00bb9c solid; }
             .content .info_message .info_pic .info .ti_li .title_s .title {
-              padding-bottom: 7px;
+              line-height: 40px;
               display: inline-block;
-              margin-right: 2%; }
+              padding-left: 1%;
+              padding-right: 1%; }
             .content .info_message .info_pic .info .ti_li .title_s .title:hover {
-              border-bottom: 5px #00bb9c solid; }
+              border-bottom: 5px #00bb9c solid;
+              margin-bottom: -5px;
+              line-height: 30px; }
           .content .info_message .info_pic .info .ti_li .link {
-            float: right; }
+            float: right;
+            line-height: 50px; }
             .content .info_message .info_pic .info .ti_li .link a {
               color: #00bb9c; }
         .content .info_message .info_pic .info .information {
@@ -286,23 +292,27 @@ a:hover {
       margin-left: 9%;
       width: 40%; }
       .content .info_message .message .subtittle {
-        margin: 45px auto;
-        width: 45%; }
+        margin: 0px auto;
+        width: 65%; }
+        .content .info_message .message .subtittle img {
+          width: 100%; }
       .content .info_message .message .message_bg {
         background-image: url("../../static/img/messagebox.png");
         background-size: 100%;
-        height: 390px;
-        width: 440px;
+        height: 380px;
+        width: 100%;
         margin: 0px auto;
+        margin-bottom: -55px;
+        background-position-y: 25px;
         position: relative;
         background-repeat: no-repeat; }
         .content .info_message .message .message_bg .message_box {
           overflow: auto;
           position: absolute;
-          margin: 35px 15px;
+          margin: 52px 15px;
           background-color: #eeeeee;
-          width: 93%;
-          height: 238px;
+          width: 90%;
+          height: 200px;
           border: 3px solid #00bb9c; }
           .content .info_message .message .message_bg .message_box ._message {
             margin: 15px;
