@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>home_page</title>
 	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
 </head>
 <body>
 <div class="content">
@@ -56,53 +57,151 @@
 	<div class="info_message">
 	<div class="info_pic">
 	<div class="info">
-	<div class="ti_li">
-	<div class="title_s">
-		<div class="title">
-		<a href="#">毕业资讯</a>
-		</div><div class="title">
-		<a href="#">毕业动态</a>
-		</div><div class="title">
-		<a href="#">毕业专访</a>
-		</div><div class="title">
-		<a href="#">毕业寄语</a>
+		<div class="ti_li">
+			<div class="title_s">
+				<div class="title" id="info">
+				<a>毕业资讯</a>
+				</div><div class="title" id="trends">
+				<a>毕业动态</a>
+				</div><div class="title" id="intev">
+				<a>毕业专访</a>
+				</div><div class="title" id="note">
+				<a>毕业寄语</a>
+				</div>
+			</div>
+			<div class="link"><a href="#">MORE>></a></div>
 		</div>
+		<div id="info_content">
+			<div class="information" id="info_con">
+				<div class="infor">
+					<div class="new">
+						<a href="#">这</a>
+					</div>
+					<div class="time">05-17</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">这是一条叫你交学费的通知</a>
+					</div>
+					<div class="time">04-19</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">来一条放假通知</a>
+					</div>
+					<div class="time">06-01</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">开学通知</a>
+					</div>
+					<div class="time">07-20</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">第五条通知</a>
+					</div>
+					<div class="time">07-21</div>
+				</div>
+			</div>
+			<div class="information" id="trends_con">
+				<div class="infor">
+					<div class="new">
+						<a href="#">这是一条停水通知</a>
+					</div>
+					<div class="time">05-17</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">这</a>
+					</div>
+					<div class="time">04-19</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">来一条放假通知</a>
+					</div>
+					<div class="time">06-01</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">开学通知</a>
+					</div>
+					<div class="time">07-20</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">第五条通知</a>
+					</div>
+					<div class="time">07-21</div>
+				</div>
+			</div>
+			<div class="information" id="intev_con">
+				<div class="infor">
+					<div class="new">
+						<a href="#">这是一条停水通知</a>
+					</div>
+					<div class="time">05-17</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">这是一条叫你交学费的通知</a>
+					</div>
+					<div class="time">04-19</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">来</a>
+					</div>
+					<div class="time">06-01</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">开学通知</a>
+					</div>
+					<div class="time">07-20</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">第五条通知</a>
+					</div>
+					<div class="time">07-21</div>
+				</div>
+			</div>
+			<div class="information" id="note_con">
+				<div class="infor">
+					<div class="new">
+						<a href="#">这是一条停水通知</a>
+					</div>
+					<div class="time">05-17</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">这是一条叫你交学费的通知</a>
+					</div>
+					<div class="time">04-19</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">来一条放假通知</a>
+					</div>
+					<div class="time">06-01</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">开</a>
+					</div>
+					<div class="time">07-20</div>
+				</div>
+				<div class="infor">
+					<div class="new">
+						<a href="#">第五条通知</a>
+					</div>
+					<div class="time">07-21</div>
+				</div>
+			</div>
 		</div>
-		<div class="link"><a href="#">MORE>></a></div>
-		</div>
-		<div class="information">
-			<div class="infor">
-			<div class="new">
-			<a href="#">这是一条停水通知</a>
-			</div>
-			<div class="time">05-17</div>
-			</div>
-			<div class="infor">
-			<div class="new">
-			<a href="#">这是一条叫你交学费的通知</a>
-			</div>
-			<div class="time">04-19</div>
-			</div>
-			<div class="infor">
-			<div class="new">
-			<a href="#">来一条放假通知</a>
-			</div>
-			<div class="time">06-01</div>
-			</div>
-			<div class="infor">
-			<div class="new">
-			<a href="#">开学通知</a>
-			</div>
-			<div class="time">07-20</div>
-			</div>
-			<div class="infor">
-			<div class="new">
-			<a href="#">第五条通知</a>
-			</div>
-			<div class="time">07-21</div>
-			</div>
-			</div>
-		</div>
+	</div>
 		<div class="pic">
 			<img src="../static/img/picture.png" alt="毕业照"><img src="../static/img/picture.png" alt="毕业照"><img class="pho" src="../static/img/picture.png" alt="毕业照">
 		</div>
@@ -125,6 +224,20 @@
 			</div>
 		</div>
 	</div>
+	<div id="bottom_banner"> 
+		<div id="banner">
+			<div class="right_active"><li class="pic_info">千人合影</li><img src="../static/img/banner.jpeg"></div>
+			<div class="right_active"><li class="pic_info">千人合影</li><img src="../static/img/banner.jpeg"></div>
+			<div class="right_active"><li class="pic_info">千人合影</li><img src="../static/img/banner.jpeg"></div>
+			<div class="right_active"><li class="pic_info">千人合影</li><img src="../static/img/banner.jpeg"></div>
+			<div class="pic"><li class="pic_info">千人合影</li><img src="../static/img/banner.jpeg"></div>
+		</div>
+		<div class="button" id="left-button"><</div>
+		<div class="button" id="right-button">></div>
+	</div>
+	<div class="cpyright">Powered by 木犀团队</div>
+	<script src="../static/js/home_page.js"></script>
+
 </div>
 </body>
 </html>

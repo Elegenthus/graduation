@@ -269,7 +269,8 @@ a:hover {
               line-height: 40px;
               display: inline-block;
               padding-left: 1%;
-              padding-right: 1%; }
+              padding-right: 1%;
+              cursor: pointer; }
             .content .info_message .info_pic .info .ti_li .title_s .title:hover {
               border-bottom: 5px #00bb9c solid;
               margin-bottom: -5px;
@@ -280,20 +281,31 @@ a:hover {
             .content .info_message .info_pic .info .ti_li .link a {
               color: #00bb9c;
               font-size: 18px; }
-        .content .info_message .info_pic .info .information {
-          padding-top: 25px; }
-          .content .info_message .info_pic .info .information .infor {
-            overflow: hidden;
-            margin-top: 20px; }
-            .content .info_message .info_pic .info .information .infor .new {
-              float: left;
-              width: 80%;
-              text-overflow: ellipsis;
+        .content .info_message .info_pic .info #info_content {
+          height: 200px;
+          position: relative;
+          width: 100%; }
+          .content .info_message .info_pic .info #info_content #trends_con, .content .info_message .info_pic .info #info_content #intev_con, .content .info_message .info_pic .info #info_content #note_con {
+            display: none; }
+          .content .info_message .info_pic .info #info_content .information {
+            padding-top: 25px;
+            display: block;
+            height: 180px;
+            width: 100%;
+            position: absolute;
+            top: 0px; }
+            .content .info_message .info_pic .info #info_content .information .infor {
               overflow: hidden;
-              white-space: nowrap; }
-            .content .info_message .info_pic .info .information .infor .time {
-              float: right;
-              margin-right: 5%; }
+              margin-top: 20px; }
+              .content .info_message .info_pic .info #info_content .information .infor .new {
+                float: left;
+                width: 80%;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap; }
+              .content .info_message .info_pic .info #info_content .information .infor .time {
+                float: right;
+                margin-right: 5%; }
       .content .info_message .info_pic .pic {
         margin-top: 45px;
         padding: 0px; }
@@ -339,3 +351,153 @@ a:hover {
             white-space: nowrap; }
             .content .info_message .message .message_bg .message_box ._message .name {
               font-weight: bold; }
+  .content #bottom_banner {
+    display: block;
+    width: 68%;
+    margin: 190px auto 120px;
+    height: auto;
+    position: relative; }
+    .content #bottom_banner #banner {
+      margin: auto;
+      width: 80%;
+      height: 330px;
+      overflow: hidden;
+      position: relative; }
+    .content #bottom_banner .pic {
+      width: 100%;
+      height: 330px;
+      top: 0px;
+      position: relative; }
+    .content #bottom_banner img {
+      display: block;
+      width: 100%;
+      height: 330px; }
+    .content #bottom_banner .pic_info {
+      display: block;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      z-index: 500;
+      background: rgba(41, 47, 51, 0.7);
+      color: #00bb9c; }
+    .content #bottom_banner .right_show {
+      -webkit-animation: right_show 1s ease-in-out;
+      -o-animation: right_show 1s ease-in-out;
+      animation: right_show 1s ease-in-out;
+      -webkit-animation-fill-mode: forwards;
+      -o-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      width: 100%;
+      height: 330px;
+      position: absolute;
+      top: 0px; }
+
+@keyframes right_show {
+  from {
+    left: -100%; }
+  to {
+    left: 0px; } }
+
+@-webkit-keyframes right_show/* Safari and Chrome */ {
+  from {
+    left: -100%; }
+  to {
+    left: 0px; } }
+    .content #bottom_banner .right_active {
+      -webkit-animation: right_active 1s ease-in-out;
+      -o-animation: right_active 1s ease-in-out;
+      animation: right_active 1s ease-in-out;
+      -webkit-animation-fill-mode: forwards;
+      -o-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      width: 100%;
+      height: 330px;
+      position: absolute;
+      top: 0px; }
+
+@keyframes right_active {
+  from {
+    left: 0px; }
+  to {
+    left: 100%; } }
+
+@-webkit-keyframes right_active /* Safari and Chrome */ {
+  from {
+    left: 0px; }
+  to {
+    left: 100%; } }
+    .content #bottom_banner .left_show {
+      -webkit-animation: left_show 1s ease-in-out;
+      -o-animation: left_show 1s ease-in-out;
+      animation: left_show 1s ease-in-out;
+      -webkit-animation-fill-mode: forwards;
+      -o-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      width: 100%;
+      height: 330px;
+      position: absolute;
+      top: 0px; }
+
+@keyframes left_show {
+  from {
+    left: 100%; }
+  to {
+    left: 0px; } }
+
+@-webkit-keyframes left_show /* Safari and Chrome */ {
+  from {
+    left: 100%; }
+  to {
+    left: 0px; } }
+    .content #bottom_banner .left_active {
+      -webkit-animation: left_active 1s ease-in-out;
+      -o-animation: left_active 1s ease-in-out;
+      animation: left_active 1s ease-in-out;
+      -webkit-animation-fill-mode: forwards;
+      -o-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      width: 100%;
+      height: 330px;
+      position: absolute;
+      top: 0px; }
+
+@keyframes left_active {
+  from {
+    left: 0px; }
+  to {
+    left: -100%; } }
+
+@-webkit-keyframes left_active /* Safari and Chrome */ {
+  from {
+    left: 0px; }
+  to {
+    left: -100%; } }
+    .content #bottom_banner .button {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      font-size: 25px;
+      line-height: 25px;
+      font-weight: bolder;
+      color: #00bb9c;
+      transform: scale(3, 6);
+      top: 200px;
+      cursor: pointer;
+      top: 165px;
+      margin-top: -12.5px; }
+    .content #bottom_banner #left-button {
+      position: absolute;
+      left: 30px; }
+    .content #bottom_banner #right-button {
+      position: absolute;
+      right: 30px;
+      text-align: right; }
+  .content .cpyright {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #00bb9c; }
