@@ -364,10 +364,16 @@ a:hover {
       overflow: hidden;
       position: relative; }
     .content #bottom_banner .pic {
+      visibility: hidden;
       width: 100%;
       height: 330px;
       top: 0px;
-      position: relative; }
+      position: absolute; }
+    .content #bottom_banner .pic_first {
+      width: 100%;
+      height: 330px;
+      top: 0px;
+      position: absolute; }
     .content #bottom_banner img {
       display: block;
       width: 100%;
